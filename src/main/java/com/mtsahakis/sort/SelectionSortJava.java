@@ -2,9 +2,9 @@ package com.mtsahakis.sort;
 
 import com.mtsahakis.common.Utils;
 
-public class SelectionSortJava {
+public class SelectionSortJava implements Sorter {
 
-    public static void sort(int[] arr) {
+    public void sort(int[] arr) {
         if (arr == null || arr.length == 1) {
             return;
         }

@@ -2,9 +2,9 @@ package com.mtsahakis.sort;
 
 import static com.mtsahakis.common.Utils.swap;
 
-public class BubbleSortJava {
+public class BubbleSortJava implements Sorter {
 
-    public static void sort(int[] arr) {
+    public void sort(int[] arr) {
         if (arr == null || arr.length == 1) {
             return;
         }
