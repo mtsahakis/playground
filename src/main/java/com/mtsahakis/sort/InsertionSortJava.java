@@ -1,5 +1,7 @@
 package com.mtsahakis.sort;
 
+import static com.mtsahakis.common.Utils.swap;
+
 public class InsertionSortJava implements Sorter {
 
     public void sort(int[] arr) {
@@ -7,7 +9,14 @@ public class InsertionSortJava implements Sorter {
             return;
         }
 
-
+        for (int i = 1; i < arr.length; i++) {
+            int key = arr[i];
+            int j = i - 1;
+            while (j >= 0 && key < arr[j]) {
+                swap(arr, j, j + 1);
+                j--;
+            }
+        }
     }
 
 }

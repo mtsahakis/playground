@@ -9,7 +9,7 @@ class SelectionSortKotlin : Sorter {
             return
         }
 
-        for (i in 0 until arr.size) {
+        for (i in arr.indices) {
             var maxIndex = 0
 
             for (j in 1 until arr.size - i) {
