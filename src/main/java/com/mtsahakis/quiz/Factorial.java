@@ -37,7 +37,7 @@ public class Factorial {
             throw new IllegalArgumentException("factorial input cannot be negative");
         }
 
-        if (num == 0 || num == 1) {
+        if (num == 0) {
             return 1;
         }
 

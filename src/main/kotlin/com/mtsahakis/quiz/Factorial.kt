@@ -35,7 +35,7 @@ fun recursiveFactorial(num: Int): Int {
         throw java.lang.IllegalArgumentException("factorial input cannot be negative")
     }
 
-    if (num == 0 || num == 1) {
+    if (num == 0) {
         return 1
     }
 
