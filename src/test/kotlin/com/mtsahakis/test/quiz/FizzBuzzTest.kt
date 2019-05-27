@@ -1,4 +1,4 @@
-package com.mtsahakis.test
+package com.mtsahakis.test.quiz
 
 import com.mtsahakis.quiz.FizzBuzzJava
 import com.mtsahakis.quiz.process
