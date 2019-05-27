@@ -20,11 +20,11 @@ fun iterativeFactorialWhile(num: Int): Int {
     }
 
     var result = 1
-    var i = 1
+    var i = num
 
-    while (i <= num) {
+    while (i > 1) {
         result *= i
-        i++
+        i--
     }
 
     return result

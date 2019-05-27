@@ -22,11 +22,11 @@ public class Factorial {
         }
 
         int result = 1;
-        int i = 1;
+        int i = num;
 
-        while (i <= num) {
+        while (i > 1) {
             result *= i;
-            i++;
+            i--;
         }
 
         return result;
