@@ -2,7 +2,7 @@ package com.mtsahakis.sort;
 
 import static com.mtsahakis.common.Utils.swap;
 
-public class BubbleSortJava implements Sorter {
+public class BubbleSortJava implements InPlaceSorter {
 
     public void sort(int[] arr) {
         if (arr == null || arr.length == 1) {

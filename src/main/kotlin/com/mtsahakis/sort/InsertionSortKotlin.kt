@@ -2,7 +2,7 @@ package com.mtsahakis.sort
 
 import com.mtsahakis.common.Utils.Companion.swap
 
-class InsertionSortKotlin : Sorter {
+class InsertionSortKotlin : InPlaceSorter {
 
     override fun sort(arr: IntArray?) {
         if (arr == null || arr.size == 1) {

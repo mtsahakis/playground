@@ -2,7 +2,7 @@ package com.mtsahakis.sort;
 
 import com.mtsahakis.common.Utils;
 
-public class SelectionSortJava implements Sorter {
+public class SelectionSortJava implements InPlaceSorter {
 
     public void sort(int[] arr) {
         if (arr == null || arr.length == 1) {

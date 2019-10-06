@@ -1,6 +1,6 @@
 package com.mtsahakis.sort
 
-interface Sorter {
+interface InPlaceSorter {
 
     fun sort(arr: IntArray?)
 
