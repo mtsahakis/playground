@@ -7,13 +7,6 @@ val data = mapOf(
     "users4.csv" to listOf(56, 32, 18, 44)
 )
 
-val foo = mapOf(
-    "users1.csv" to 1,
-    "users2.csv" to 2,
-    "users3.csv" to 3,
-    "users4.csv" to 4
-)
-
 fun main() {
     averageAge()
     faultyFiles()
