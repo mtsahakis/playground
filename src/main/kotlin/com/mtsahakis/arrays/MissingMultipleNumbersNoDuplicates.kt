@@ -3,7 +3,7 @@ package com.mtsahakis.arrays
 /**
  * 1..N
  */
-fun findMissingNumbers(arr: IntArray): IntArray {
+fun findMissingMultipleNumbersNoDuplicates(arr: IntArray): IntArray {
     // first we sort the array
     arr.sort()
     val first = arr.first()
@@ -36,8 +36,8 @@ fun findMissingNumbers(arr: IntArray): IntArray {
 }
 
 fun main() {
-    println(findMissingNumbers(intArrayOf(2, 3)).contentToString())
-    println(findMissingNumbers(intArrayOf(5, 3)).contentToString())
-    println(findMissingNumbers(intArrayOf(1, 3)).contentToString())
-    println(findMissingNumbers(intArrayOf(13, 12)).contentToString())
+    println(findMissingMultipleNumbersNoDuplicates(intArrayOf(2, 3)).contentToString())
+    println(findMissingMultipleNumbersNoDuplicates(intArrayOf(5, 3)).contentToString())
+    println(findMissingMultipleNumbersNoDuplicates(intArrayOf(1, 3)).contentToString())
+    println(findMissingMultipleNumbersNoDuplicates(intArrayOf(13, 12)).contentToString())
 }
