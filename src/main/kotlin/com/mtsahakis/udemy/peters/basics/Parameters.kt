@@ -1,4 +1,4 @@
-package com.mtsahakis.udemy.basics
+package com.mtsahakis.udemy.peters.basics
 
 fun main(args: Array<String>) {
     val together = concat(listOf("Kotlin", "Java", "Scala"), ": ")

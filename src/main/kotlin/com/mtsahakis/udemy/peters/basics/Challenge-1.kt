@@ -1,4 +1,4 @@
-package com.mtsahakis.udemy.basics
+package com.mtsahakis.udemy.peters.basics
 
 val data = mapOf(
     "users1.csv" to listOf(32, 45, 17, -1, 34),

@@ -1,6 +1,6 @@
 package com.mtsahakis.linkedlist
 
-import com.mtsahakis.udemy.oo.isEven
+import com.mtsahakis.udemy.peters.oo.isEven
 
 class Node(val data: Int) {
     var next: Node? = null

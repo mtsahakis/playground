@@ -1,4 +1,4 @@
-package com.mtsahakis.udemy.basics
+package com.mtsahakis.udemy.peters.basics
 
 val input_for_chaining = listOf(
     mapOf("file1.csv" to listOf(3, 5, -9977, 7, 11, 66)),

@@ -1,4 +1,4 @@
-package com.mtsahakis.udemy.basics
+package com.mtsahakis.udemy.peters.basics
 
 val fibonnaci = sequence {
     yield(1)

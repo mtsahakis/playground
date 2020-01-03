@@ -1,4 +1,4 @@
-package com.mtsahakis.udemy.basics
+package com.mtsahakis.udemy.peters.basics
 
 fun main() {
     val possiblePrimesAfterTwo = generateSequence(3) { it + 2 } // 3,5,7,9

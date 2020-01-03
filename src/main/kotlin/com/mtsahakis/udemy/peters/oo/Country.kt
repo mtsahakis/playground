@@ -1,4 +1,4 @@
-package com.mtsahakis.udemy.oo
+package com.mtsahakis.udemy.peters.oo
 
 class Country(val name: String, val area: Int = 0) {
 

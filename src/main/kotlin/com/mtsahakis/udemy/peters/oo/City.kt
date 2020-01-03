@@ -1,4 +1,4 @@
-package com.mtsahakis.udemy.oo
+package com.mtsahakis.udemy.peters.oo
 
 class City {
     var name: String = ""
