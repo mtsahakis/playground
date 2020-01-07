@@ -2,7 +2,7 @@ package com.mtsahakis.udemy.peters.basics
 
 import kotlin.random.Random
 
-fun main(args: Array<String>) {
+fun main() {
     val list = mutableListOf<Int>()
 
     for (i in 1..100) {
@@ -14,4 +14,14 @@ fun main(args: Array<String>) {
         println(list[index])
         index++
     }
+
+    // get the last value from a map
+    val map: MutableMap<Int, String> = mutableMapOf()
+    map[1] = "One"
+    val iterator = map.iterator()
+    var last = iterator.next()
+    while (iterator.hasNext()) {
+        last = iterator.next()
+    }
+    println(last)
 }
