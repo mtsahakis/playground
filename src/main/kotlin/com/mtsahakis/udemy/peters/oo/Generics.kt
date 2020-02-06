@@ -10,6 +10,12 @@ class TimeLine<E> {
         date2Data[Date()] = t
     }
 
+    fun addAll(elements: Collection<E>) {
+        elements.forEach {
+            add(it)
+        }
+    }
+
     fun getLatest(): E {
         return date2Data.values.last()
     }
